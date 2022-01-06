@@ -36,9 +36,9 @@ function isDarkMode() {
         || document.querySelector('.darkmode');
 }
 
-setTimeout(() => navigator.maxTouchPoints > 0 && alert("Well hello there!\nI have yet to make this site more" +
+setTimeout(() => navigator.maxTouchPoints > 0 && ("Well hello there!\nI have yet to make this site more" +
     " mobile-friendly than it is right now. I will do it soonish, but until then, this is best seen on a larger display.\n" +
-    "(unless you're on a tablet then idk)"), 700)
+    "(unless you're on a tablet/not mobile then idk)"), 700)
 
 setTimeout(() => isDarkMode() && alert("Hi! Dark mode is cool and all, but please disable it for now\nI promise I wont break your eyes 🙂"), 800)
 
