@@ -5,6 +5,12 @@
     overflow: hidden;
 }
 
+@media only screen and (max-height: 768px) {
+    * {
+        overflow: visible;
+    }
+}
+
 body {
     background: #252830;
     background: url("images/png/bg.png") center 0 / cover;
