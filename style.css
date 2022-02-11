@@ -1,14 +1,13 @@
 /* You're cute btw <3 */
-@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Shadows+Into+Light&family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Shadows+Into+Light+Two&family=Comfortaa&family=Architects+Daughter:wght@500&display=swap');
 
 * {
     overflow: hidden;
 }
 
 body {
-    /*    background: linear-gradient(to right top, #FFA7EC, #A536FF);*/
     background: #252830;
-    background: url("images/bg.png") center 0 / cover;
+    background: url("images/png/bg.png") center 0 / cover;
     backdrop-filter: blur(3px);
     font-family: 'Rubik', sans-serif;
 }
@@ -23,29 +22,34 @@ h1 {
     color: #B2AEFF
 }
 
+h2 {
+
+    font-size: medium;
+    margin-top: 1.5rem;
+}
+
 h3 {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
 }
 
 p, pre {
-    color: white;
-    font-family: 'Rubik', sans-serif;
+    color: #f3f2ff;
+    font-family: 'Comfortaa', sans-serif;
     word-break: break-word;
     padding-inline: 5rem;
+    padding: 1%;
 }
 
 .card {
     background: white;
     border-radius: 1.7em;
-    width: 60%;
-    height: 60%;
+
     background: linear-gradient(to right bottom, rgba(255, 167, 236, 0.8), rgba(126, 85, 255, 0.5));
-    filter: drop-shadow(6px 6px 16px black);
+    filter: drop-shadow(6px 6px 16px rgb(0, 0, 0));
 }
 
 
 .profile {
-    alignment: center;
     justify-content: center;
     padding: 16px 25px 25px 0;
     display: flex;
@@ -82,14 +86,15 @@ p, pre {
     position: relative;
     top: -16px;
     left: -4px;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
     max-width: 200px;
+    font-family: 'Comfortaa', cursive;
 }
 
 .info-icons {
     width: 30%;
     height: 30px;
-    padding-right: 2px;
+    padding: 0 2px 0 0;
     display: inline-flex;
 }
 
@@ -99,9 +104,7 @@ p, pre {
 }
 
 .social-icon {
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-bottom: 8px;
+    padding: 0 6px 8px 6px; /* top | right | bottom | left */
 }
 
 .subtitle {
@@ -115,7 +118,7 @@ p, pre {
     filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.45));
 }
 
-.be-higher {
+.tl- {
     transform: translateY(-16px);
 }
 
@@ -125,30 +128,19 @@ p, pre {
     padding-bottom: 5px;
     color: darkcyan;
     filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.10));
-    font-family: "Comic Sans MS", sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard", "ChalkboardSE-Regular", sans-serif;
 }
 
 
 #icon {
     max-width: 90px;
-    min-width: 90px;
+    max-height: 90px;
     margin-right: 16px;
     border-radius: 100em;;
     pointer-events: none;
     user-select: none;
 }
 
-#socials-header {
-    position: absolute;
-    bottom: 1px;
-    color: navajowhite;
-    letter-spacing: 0.01em;
-}
-
 #h1-name {
     margin-bottom: -16px;
-}
-
-#guh-html {
-    letter-spacing: 2px;
 }
