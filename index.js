@@ -36,7 +36,7 @@ function isDarkMode() {
         || document.querySelector('.darkmode');
 }
 
-setTimeout(() => isDarkMode() && alert("Hi! Dark mode is cool and all, but please disable it for now\nI promise I wont break your eyes 🙂"), 800)
+setTimeout(() => isDarkMode() && alert("Hi! Dark mode is cool and all, but please disable it for now because im lazy to make it work lol\nI promise I wont break your eyes :P"), 800)
 
 
 
